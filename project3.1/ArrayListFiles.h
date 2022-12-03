@@ -18,6 +18,7 @@ class ArrayListFiles
 public:
 	ArrayListFiles() : arrOfFiles(NULL), size(0) {}
 	~ArrayListFiles();
+	const int getSize() { return size; };
 	class ArrayListFiles& operator = (const ArrayListFiles& arr);
 	ArrayListFiles(const ArrayListFiles& other);
 	class ArrayListFiles& operator += (const DataFile& d);
