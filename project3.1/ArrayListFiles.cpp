@@ -70,7 +70,6 @@ const int ArrayListFiles::bigFile()
 
 const ArrayListFiles& ArrayListFiles::readAllFile(const char* fileName)
 {
-
 	char buff[MAX], temp[MAX];
 	ifstream in(fileName);
 	int i = 0, p = 0, _time = 0, space = 0;

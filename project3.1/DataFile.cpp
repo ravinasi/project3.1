@@ -16,7 +16,7 @@ DataFile::DataFile()
 	setUpdate();
 }
 
-DataFile::DataFile(char* _fileName, char* _data)
+DataFile::DataFile(const char* _fileName,  const char* _data)
 {
 	counter++;
 	this->setData(_data);
@@ -46,10 +46,10 @@ char* DataFile::getUpdate() const
 	return stringTime;
 }
 
-void DataFile::setName(char* newName)
+void DataFile::setName(const char* newName)
 {
 	char* temp = new char;
-	temp = newName;
+	strcpy(temp, newName);
 	char prob = 92;
 	char prob1 = 34;
 	while (!findChar(temp))
@@ -63,7 +63,7 @@ void DataFile::setName(char* newName)
 	strcpy(this->fileName, temp);
 }
 
-void DataFile::setData(char* newData)
+void DataFile::setData(const char* newData)
 {
 	data = NULL;
 	data = new char[strlen(newData) + 1];

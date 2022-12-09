@@ -17,13 +17,13 @@ class DataFile {
 
 public:
 	DataFile();
-	DataFile(char* _fileName, char* _data);
+	DataFile(const char* _fileName, const char* _data);
 	DataFile(const DataFile& d);
 	char* getName() const { return fileName; };
 	char* getData() const { return data; };
 	char* getUpdate() const;
-	void setName(char* newName);
-	void setData(char* newData);
+	void setName(const char* newName);
+	void setData(const char* newData);
 	void setUpdate();
 	void setUpdate(tm time);
 	void dir();
@@ -34,7 +34,9 @@ public:
 	const bool operator > (const DataFile& file1);
 	//const void operator << (ostream& printc );
 	friend ostream& operator<<(ostream& out, const DataFile& f);
-	friend class  ArrayListFiles;
+	friend class ArrayListFiles;
+	friend class Folder;
+	//friend class ostream;
 	~DataFile();
 
 };

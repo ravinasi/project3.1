@@ -11,14 +11,15 @@ using namespace std;
 class DataFile;
 class ArrayListFiles
 {
-	DataFile** arrOfFiles;
+	
 	int size;
-	//friend class DataFile;
+	
 
 public:
+	DataFile** arrOfFiles;
 	ArrayListFiles() : arrOfFiles(NULL), size(0) {}
 	~ArrayListFiles();
-	const int getSize() { return size; };
+	const int getSize() const { return size; };
 	class ArrayListFiles& operator = (const ArrayListFiles& arr);
 	ArrayListFiles(const ArrayListFiles& other);
 	class ArrayListFiles& operator += (const DataFile& d);
@@ -26,7 +27,8 @@ public:
 	const ArrayListFiles& readAllFile(const char* fileName);
 	//void ArrayListFiles::readAllFiles(const char* o);
 	tm& timeUpdate(char* buff);
-
+	friend class Folder;
+	//friend class ostream;
 
 };
 
