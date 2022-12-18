@@ -1,0 +1,28 @@
+﻿  Folder.cpp
+C:\Users\ravin\source\repos\Project1\Project1\Folder.h(16,111): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\ravin\source\repos\Project1\Project1\Folder.h(22,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\ravin\source\repos\Project1\Project1\Folder.h(25,8): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\ravin\source\repos\Project1\Project1\Folder.h(30,50): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\ravin\source\repos\Project1\Project1\Folder.cpp(17,65): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\ravin\source\repos\Project1\Project1\Folder.cpp(18,1): warning C5043: 'Folder::addFileToArray': exception specification does not match previous declaration
+C:\Users\ravin\source\repos\Project1\Project1\Folder.h(22,7): message : see declaration of 'Folder::addFileToArray'
+C:\Users\ravin\source\repos\Project1\Project1\Folder.cpp(41,62): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\ravin\source\repos\Project1\Project1\Folder.cpp(42,1): warning C5043: 'Folder::addFileToArray': exception specification does not match previous declaration
+C:\Users\ravin\source\repos\Project1\Project1\Folder.h(23,7): message : see declaration of 'Folder::addFileToArray'
+C:\Users\ravin\source\repos\Project1\Project1\Folder.cpp(109,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\ravin\source\repos\Project1\Project1\Folder.cpp(112,43): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ravin\source\repos\Project1\Project1\Folder.cpp(115,103): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ravin\source\repos\Project1\Project1\Folder.cpp(127,119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\ravin\source\repos\Project1\Project1\Folder.cpp(135,41): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ravin\source\repos\Project1\Project1\Folder.cpp(138,68): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ravin\source\repos\Project1\Project1\Folder.cpp(145,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\ravin\source\repos\Project1\Project1\Folder.cpp(145,55): warning C5043: 'Folder::Folder': exception specification does not match previous declaration
+C:\Users\ravin\source\repos\Project1\Project1\Folder.h(25,2): message : see declaration of 'Folder::Folder'
+  main.cpp
+C:\Users\ravin\source\repos\Project1\Project1\Folder.h(16,111): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\ravin\source\repos\Project1\Project1\Folder.h(22,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\ravin\source\repos\Project1\Project1\Folder.h(25,8): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\ravin\source\repos\Project1\Project1\Folder.h(30,50): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\ravin\source\repos\Project1\Project1\main.cpp(9,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating Code...
+  Project1.vcxproj -> C:\Users\ravin\source\repos\Project1\x64\Debug\Project1.exe
